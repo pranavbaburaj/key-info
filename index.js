@@ -27,3 +27,11 @@ window.addEventListener('keydown', function(event)
 
 })
 
+// prevent the context menu from poping up
+window.addEventListener("contextmenu", function(event)
+{
+        event.preventDefault();
+})
+
+
+
