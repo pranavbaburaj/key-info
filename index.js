@@ -53,4 +53,13 @@ window.addEventListener("contextmenu", function(event)
 })
 
 
+// EVENT LISTENERS
+window.addEventListener('keydown', function(event){
+    if(event.ctrlKey && event.shiftKey && event.keyCode == 73){
+        event.preventDefault()
+    }
+})
+
+
+
 
