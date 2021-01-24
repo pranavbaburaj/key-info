@@ -1,6 +1,7 @@
 // variables
 
 import TextChanger from "./text.js"
+import Title from "./title.js"
 
 function t(text, e) {
     var changer = new TextChanger(text, e)
@@ -41,6 +42,7 @@ window.addEventListener('keydown', function(event)
     changeKey(event.key)
 
     updateKeys(event)
+    Title(`${event.key} pressed`, 0)
 
 })
 
