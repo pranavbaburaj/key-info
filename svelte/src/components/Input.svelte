@@ -5,8 +5,9 @@
 </script>
 
 <main>
-    <input type="text" placeholder={placeholder}  value={value} on:keydown={event => {
+    <input type="text" placeholder={placeholder}  bind:value={value} on:keydown={event => {
         keylistener(event)
+        value = ""
     }}>
 </main>
 

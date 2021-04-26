@@ -5,16 +5,16 @@
 	let headerValue:string = "Enter the key"
 	let inputValue:string = ""
 
-	function keylistener(event:Event) {
-		console.log(event)
+	function keylistener(event:any) {
+		headerValue = event.keyCode.toString()
+
 	}
 </script>
 
 <main>
 	<hi class="header">{headerValue}</hi>
 	<Input placeholder="" keylistener={keylistener} value={inputValue}/>
-	<div class="boxe-container">
-		<Box heading="Hello" content="LOL"></Box> 
+	<div class="box-container">
 	</div>
 </main>
 
