@@ -12,7 +12,7 @@
 
 <style>
     input {
-        width: 50%;
+        width: 100%;
         border: 2px solid #000000;
         outline: 0;
         padding: 10px;
