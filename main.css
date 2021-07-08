@@ -5,8 +5,9 @@
 }
 
 body {
-    background: #1E2225;
-    color: #FF7B7A;
+    background: #000000;
+    /* color: #FF7B7A; */
+    color : #1db954;
 }
 
 .keyinfo {
@@ -30,9 +31,9 @@ body {
 .box 
 {
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px 3px rgba(99, 99, 99, 0.3);
     padding : 25px 25px 25px 25px;
-    border : 2px solid #000000;
+    border : 2px solid rgba(99, 99, 99, 0.3);
     margin : 50px 50px 50px 50px;
 }
 
@@ -43,13 +44,12 @@ body {
 .text {
     width: 50%;
     /* border: none; */
-    border : 2px solid #000000;
+    border : 2px solid #1db954;
     outline: 0;
     padding: 10px;
     border-radius: 10px;
     margin : 15px 15px 15px 15px;
     background: rgb(53, 59, 63);
-    border : 2px solid #000000;
-    color: #FF7B7A; 
     font-size: 20px;
+    color : #1db954;
 }
